@@ -8,7 +8,7 @@ int square(int num) {
 
 int main() {
     int number = 0;
-    int result = square(number) + 2; // Adding 1 to the square of the number
+    int result = square(number) * 2; // Adding 1 to the square of the number
     cout << "The square of " << number << " is " << result << endl;
     return 0;
 }
